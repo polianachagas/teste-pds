@@ -1,0 +1,199 @@
+.container {
+    background-color: #43B929;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comida-img {
+    width: 30%;
+    height: 30%;
+}
+
+.comida-container {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #43B929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comida-container h2 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.historia-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f7cd5b83;
+    width: 85%;
+    height: 280px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.text-historia {
+    color: #1F1300;
+    justify-content: space-around;
+    margin-left: 40px;
+    flex: 1;
+}
+
+.text-historia p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-historia ul {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.historia-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.home_footer {
+    background-color: #5dbd48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.home_footer p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.hour-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF4A1C;
+    margin-bottom: 0;
+    padding: 50px 20px;
+}
+
+.hour-title {
+    align-self: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.info-hour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info-hour div {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.info-hour h4 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.info-hour p {
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.5;
+}
+
+/* Responsividade para manter a harmonia */
+@media (max-width: 768px) {
+    .comida-container {
+        padding: 40px 15px;
+    }
+    
+    .comida-container h2 {
+        font-size: 2.2em;
+        margin-bottom: 30px;
+    }
+    
+    .historia-container {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .historia-img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .text-historia {
+        margin-left: 0;
+    }
+    
+    .text-historia p {
+        font-size: 1.1em;
+    }
+    
+    .text-historia ul {
+        font-size: 1em;
+    }
+    
+    .hour-container {
+        padding: 40px 15px;
+    }
+    
+    .hour-title {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    
+    .info-hour {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .info-hour h4 {
+        font-size: 1.3em;
+    }
+    
+    .info-hour p {
+        font-size: 1em;
+    }
+    
+    .home_footer {
+        padding: 25px 15px;
+    }
+    
+    .home_footer p {
+        font-size: 1em;
+    }
+}

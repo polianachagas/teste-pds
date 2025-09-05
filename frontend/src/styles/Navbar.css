@@ -1,0 +1,32 @@
+.navbar-container {
+    background-color: #F7CE5B;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+.home-itens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+a {
+    color: #1F1300;
+    font-size: 28px;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #ffda75;
+    cursor: pointer;
+    border-radius: 20px;
+}
